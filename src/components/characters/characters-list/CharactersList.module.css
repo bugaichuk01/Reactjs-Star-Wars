@@ -1,0 +1,29 @@
+.character__photo {
+    width: 190px;
+    border-radius: 10px;
+}
+
+.list__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list__item {
+    padding: 15px;
+    margin: 5px;
+    background-color: var(--color-dark-blue);
+    border-radius: 10px;
+    list-style: none;
+}
+
+.list__item a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.list__item p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}

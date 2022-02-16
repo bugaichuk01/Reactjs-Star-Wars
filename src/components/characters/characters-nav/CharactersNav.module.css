@@ -1,0 +1,8 @@
+.link {
+    margin: 10px;
+}
+
+.link__container {
+    display: flex;
+    justify-content: center;
+}

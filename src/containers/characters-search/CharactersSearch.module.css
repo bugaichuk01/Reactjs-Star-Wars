@@ -1,0 +1,13 @@
+.input {
+    margin-left: 45px;
+    min-width: 300px;
+    padding: 10px 15px;
+    border: 2px solid lightgray;
+    border-radius: 7px;
+    font-size: 17px;
+    font-family: var(--font-family-main);
+    outline: none;
+}
+.input:focus {
+    border-color: var(--color-violet);
+}

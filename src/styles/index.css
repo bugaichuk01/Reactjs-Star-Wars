@@ -1,0 +1,70 @@
+:root {
+    --color-white:     #fff;
+    --color-black:     #000;
+    --color-yellow:    #ffff00;
+    --color-dark-gray: #181c23;
+
+    --theme-default-color: var(--color-dark-bg);
+    --color-dark-bg: #00040d;
+    --color-light-bg: #e7f7ff;
+
+    --color-light-blue: #2f3541;
+    --color-dark-blue: #292e38;
+    --color-red: #d2223a;
+
+    --color-blue:   #6a83fb;
+    --color-violet: #ae72c2;
+
+    --spacing-ultrasmall: 5px;
+    --spacing-small:      10px;
+    --spacing-medium:     20px;
+    --spacing-large:      30px;
+
+    --font-size-main:      16px;
+    --font-size-subheader: 18px;
+    --font-size-header:    26px;
+
+    --margin-list: 7px;
+    --width-max: 1200px;
+
+    --font-bold: 600;
+    --transition: .4s;
+    --font-family-main: sans-serif;
+
+    --border-radius-small: 3px;
+    --border-radius-medium: 5px;
+
+    --box-shadow-white:
+            0 16px 24px 2px rgba(255, 255, 255, 0.02),
+            0 6px 30px 5px rgba(255, 255, 255, 0.04),
+            0 8px 10px -5px rgba(255, 255, 255, 0.1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-main);
+    background-color: var(--theme-default-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+img {
+    display: block;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-red);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-dark-bg);
+}
