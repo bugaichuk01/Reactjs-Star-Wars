@@ -6,7 +6,7 @@ import imgSpaceStation from '../../static/space-station.svg';
 function Header(props) {
     return (
         <div className={styles.container}>
-            <img src={imgSpaceStation} className={styles.logo} alt="Star wars logo"/>
+            <img src={imgSpaceStation} className={styles.logo} alt="Logo"/>
             <ul className={styles.list__container}>
                 {/*<li><NavLink to='/'>Home</NavLink></li>*/}
                 <li><NavLink to='/characters/?page=1'>Characters</NavLink></li>
